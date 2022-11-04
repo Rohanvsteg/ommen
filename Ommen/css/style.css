@@ -49,18 +49,18 @@ ol{
   margin: auto;
 }
 .col-links{
-  width: 16.66%;
-  background-color:#F5F5F5 ;
-  float: left;
-  display: inline-block;
-  margin:auto;
+    width: 100%;
+    background-color:#F5F5F5 ;
+    float: left;
+    display: inline-block;
+    margin:auto;
 }
 .col-rechts{
-  width: 74.97%;
-  background-color:#B4B4B4 ;
-  float: right;
-  display: inline-block;
-  margin:auto;
+    width: 100%;
+    background-color:#B4B4B4 ;
+    float: right;
+    display: inline-block;
+    margin:auto;
 }
 .attractie-een{
   padding-bottom:80px ;
@@ -76,19 +76,19 @@ ol{
 }
 @media (min-width: 600px) {
   .col-links{
-    width: 100%;
-    background-color:#F5F5F5 ;
-    float: left;
-    display: inline-block;
-    margin:auto;
+  width: 16.66%;
+  background-color:#F5F5F5 ;
+  float: left;
+  display: inline-block;
+  margin:auto;
 }
 @media (min-width: 600px) {
   }
-  .col-rechts{
-    width: 100%;
-    background-color:#B4B4B4 ;
-    float: right;
-    display: inline-block;
-    margin:auto;
+    .col-rechts{
+  width: 74.97%;
+  background-color:#B4B4B4 ;
+  float: right;
+  display: inline-block;
+  margin:auto;
   }
 }
