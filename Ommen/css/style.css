@@ -1,0 +1,94 @@
+body{
+  background: black;
+  font-family: "Baskerville";
+}
+h1{
+  background-color: #074f57;
+  background-image: url('../img/ommen.png');
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  font-family: "Baskerville";
+  color: white;
+  font-size: 75px;
+}
+h2{
+  font-size: 20px;
+  margin:auto;
+  padding: 6px;
+}
+h3{
+  font-size: 15px;
+  margin:auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+p{
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 70%;
+  float: left;
+}
+img{
+  max-width: 250px;
+  max-height: auto;
+  border-radius: 12px;
+  float: right;
+  padding: 5px;
+  display: inline-block;
+}
+ol{
+  list-style-type: circle;
+  margin: auto;
+}
+.col-links{
+  width: 16.66%;
+  background-color:#F5F5F5 ;
+  float: left;
+  display: inline-block;
+  margin:auto;
+}
+.col-rechts{
+  width: 74.97%;
+  background-color:#B4B4B4 ;
+  float: right;
+  display: inline-block;
+  margin:auto;
+}
+.attractie-een{
+  padding-bottom:80px ;
+}
+.attractie-twee{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+@media (min-width: 600px) {
+  body{
+    background:#DAD7D7 ;
+  }
+}
+@media (max-width: 600px) {
+  .col-links{
+    width: 100%;
+    background-color:#F5F5F5 ;
+    float: left;
+    display: inline-block;
+    margin:auto;
+}
+@media (max-width: 600px) {
+  }
+  .col-rechts{
+    width: 100%;
+    background-color:#B4B4B4 ;
+    float: right;
+    display: inline-block;
+    margin:auto;
+  }
+}
